@@ -1,0 +1,20 @@
+
+;; ----- smex-history -----
+(
+ package-install
+ load-theme
+ top-level
+ cd
+ 5x5
+ arp
+ dbx
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 3)
+ (load-theme . 2)
+ (evil-mode . 4)
+ (top-level . 1)
+ (turn-on-evil-mode . 3)
+)

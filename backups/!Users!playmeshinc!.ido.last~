@@ -1,0 +1,107 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/tick_config/" . "src/")
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/tick_matchmaker/" . "src/")
+ ("/Users/playmeshinc/Documents/Git/tick-server/script/" . "bootstrap/")
+ ("/Users/playmeshinc/Documents/Git/" . "tick-server/")
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/mmpp/" . "src/")
+ ("/Users/playmeshinc/Documents/Git/tick-server/" . "apps/")
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/tick_observer/" . "src/")
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/tick_manager/" . "src/")
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/tick_referee/" . "src/")
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/" . "tick_observer/")
+ ("/Users/playmeshinc/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/playmeshinc/Documents/Git/tick-server/apps/tick_observer/src/"
+ "/Users/playmeshinc/.emacs.d/"
+ "/Users/playmeshinc/"
+ "/Users/playmeshinc/.emacs.d/themes/"
+ "/Users/playmeshinc/Documents/Git/tick-server/script/bootstrap/"
+ "/Users/playmeshinc/Documents/Git/tick-server/apps/tick_manager/src/"
+ "/Users/playmeshinc/Documents/Git/tick-server/apps/mmpp/src/"
+ "/Users/playmeshinc/Documents/Git/tick-server/fixtures/"
+ "/Users/playmeshinc/Documents/Git/tick-server/apps/tick_manager/"
+ "/Users/playmeshinc/Documents/Git/tick-server/apps/tick_observer/"
+ "/Users/playmeshinc/Documents/Git/tick-server/apps/tick_config/src/"
+ "/Users/playmeshinc/Documents/Git/tick-server/apps/tick_referee/src/"
+ "/Users/playmeshinc/Documents/Git/little_brother/test/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "match_tracker.erl"
+ "init.el"
+ ".emacs"
+ "zenburn-theme.el"
+ "tick_observer_app.erl"
+ "bootstrap.sql"
+ "tick_observer.erl"
+ "tick_observer.app.src"
+ "tick_observer_sup.erl"
+ "session_tracker.erl"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/playmeshinc/.emacs.d/" (20834 64177 0 0) "places" "init.el" "elpa/" "backups/" "auto-save-list/" ".smex-items" "#init.el#" "../" "./")
+
+ ("/Users/playmeshinc/" (20834 63459 0 0) "ValorUnitTest/" "touchable" "test" "tableControllerFiles.txt" "scripts/" "quarkgames/" "Public/" "Pictures/" "nottouchable" "Music/" "Movies/" "Library/" "Google Calendar_files/" "en.plist_2.1.5" "en.plist_2.1.4" "Eclipse/" "Dropbox/" "Downloads/" "Documents/" "Documentation/" "Desktop/" "bin/" "77bbe1c.zip" "77bbe1c/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump" ".Xauthority" ".vnc/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".thumbnails/" ".subversion/" ".ssh/" ".sh_history" ".saves/" ".recentf" ".putty/" ".profile" ".oh-my-zsh/" ".mysql_history" ".MacOSX/" ".lesshst" ".kerlrc" ".itmstransporter/" ".ido.last" ".gitk" ".gitignore_global" ".gitconfig" ".gem/" ".fontconfig/" ".erlang.cookie" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".dialyzer_plt" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".babushka/" ".arcrc" ".appledoc/" ".android/" "../" "./")
+
+ ("/Users/playmeshinc/.emacs.d/themes/" (20834 63137 0 0) "zenburn-theme.el" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/tick_observer/src/" (20831 30370 0 0) "tutorial_tracker.erl" "tick_observer_sup.erl" "tick_observer_serv.erl" "tick_observer_app.erl" "tick_observer.erl" "tick_observer.app.src" "session_tracker.erl" "match_tracker.erl" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/tick_observer/" (20831 30370 0 0) "test/" "src/" "rebar.config.orig" "rebar.config" "Makefile" "ebin/" "deps/" ".gitignore" ".eunit/" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/script/" (20831 30305 0 0) "upgrade_runtime.escript" "tick_fnord.rb" "start-redis.sh" "setup_dev.sh" "redis.conf.erb" "my.cnf.erb" "monitor-redis.rb" "monitor-mysql.rb" "install_release.escript" "fnord.sh" "dev.sh" "deploy.sh" "bootstrap.sh" "bootstrap-cerebrate.sh" "bootstrap/" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/" (20831 30317 0 0) "tick_benchmark/" "script/" "relgd/" "reldev/" "rel/" "README.md" "protoc/" "priv/" "Makefile.orig" "Makefile" "fixtures/" "deps/" "ct_results/" "ct/" "config/" "apps/" ".gitignore" ".git/" ".arcconfig" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/script/bootstrap/" (20831 22060 0 0) "bootstrap.sql" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/tick_manager/src/" (20831 22060 0 0) "tick_manager_unit_config.erl" "tick_manager_sup.erl" "tick_manager_lib.erl" "tick_manager_app.erl" "tick_manager.erl" "tick_manager.app.src" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/tick_manager/" (20831 22010 0 0) "test/" "src/" "rebar.config" "README.md" "Makefile" "ebin/" "doc/" "deps/" ".gitignore" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/mmpp/src/" (20831 22061 0 0) "ping_handler.erl" "mmpp_user_lib.erl" "mmpp_sup.erl" "mmpp_notifier.erl" "mmpp_local_registry.erl" "mmpp_handler.erl.orig" "mmpp_handler.erl" "mmpp_framer.erl" "mmpp_app.erl" "mmpp.hrl" "mmpp.erl" "mmpp.app.src" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/mmpp/" (20831 22010 0 0) "test/" "src/" "rebar.config" "README.md" "Makefile" "ebin/" "doc/" ".gitignore" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/fixtures/" (20830 65472 0 0) "user_lib_fixtures.hrl" "referee_fixtures.hrl" "observer_fixtures.hrl" "notifier_fixtures.hrl" "manager_fixtures.hrl" "interop_fixtures.hrl" "fixtures.hrl" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/reldev/" (20831 3988 0 0) "tick/" "reltool.config" "files/" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/reldev/tick/" (20831 3989 0 0) "releases/" "priv/" "log/" "lib/" "erts-5.10.1/" "bin/" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/reldev/tick/log/" (20831 4037 0 0) "warning.log" "run_erl.log" "notice.log" "info.log" "games/" "error.log" "erlang.log.4" "erlang.log.3" "erlang.log.2" "erlang.log.1" "debug.log" "crash.log" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/tick_config/src/" (20825 57785 0 0) "tick_config_sup.erl" "tick_config_rpc.erl" "tick_config_listener.erl" "tick_config_lib.erl" "tick_config_impl.erl" "tick_config_broadcaster.erl" "tick_config_app.erl" "tick_config.hrl" "tick_config.erl" "tick_config.app.src" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/tick_config/" (20825 57785 0 0) "test/" "src/" "rebar.config" "Makefile" "ebin/" "doc/" ".gitignore" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/tick_referee/src/" (20828 56739 0 0) "tick_referee_sup.erl" "tick_referee_lib.erl" "tick_referee_fsm.erl" "tick_referee_app.erl" "tick_referee.erl" "tick_referee.app.src" "match_recorder.erl" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/tick_matchmaker/src/" (20817 54809 0 0) "tick_matchmaker_sup.erl" "tick_matchmaker_serv.erl" "tick_matchmaker_app.erl" "tick_matchmaker.erl" "tick_matchmaker.app.src" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/tick_matchmaker/" (20825 55728 0 0) "test/" "src/" "rebar.config" "README.md" "Makefile" "ebin/" "doc/" "deps/" ".gitignore" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/tick_observer/test/" (20807 43016 0 0) "tick_observer_tests.erl" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/" (20827 27814 0 0) "tick_referee/" "tick_observer/" "tick_mono_interop/" "tick_matchmaker/" "tick_manager/" "tick_config/" "mmpp/" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/" (20820 55502 0 0) "wiki.wiki/" "wiki/" "valor-client-ci/" "tmp/" "tick-server/" "tick-client-ci/" "simple_chat_server_tutorial/" "simple_cache/" "shenzhen/" "robot-fruit-hunt/" "playmesh-iphonevalor/" "playmesh-androidvalor/" "phabricatortest/" "little_brother/" "lib/" "iphonevalor/" "greenDAO/" "folsom/" "babushka-deps/" "appledoc/" "androrm/" "androidvalor/" ".DS_Store" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/tick-server/apps/tick_referee/" (20825 55728 0 0) "test/" "src/" "rebar.config" "Makefile" "ebin/" "deps/" ".gitignore" "../" "./")
+
+ ("/Users/" (20422 34613 0 0) "Shared/" "playmeshinc/" ".localized" "../" "./")
+
+ ("/Users/playmeshinc/Documents/Git/little_brother/test/" (20821 60842 0 0) "little_brother_tests.erl" "lb_adapter_tests.erl" ".#little_brother_tests.erl" "#little_brother_tests.erl#" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
