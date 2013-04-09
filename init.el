@@ -3,6 +3,11 @@
              '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (package-initialize)
 
+(add-to-list 'load-path "~/dev/emacs/auto-complete")
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/dev/emacs/auto-complete/dict")
+(ac-config-default)
+
 (require 'evil)
 (evil-mode 1)
 
@@ -26,9 +31,18 @@
 (setq load-path (cons "/usr/local/otp/lib/erlang/lib/tools-2.6.10/emacs" load-path))
 (setq erlang-root-dir "/usr/local/otp")
 (setq exec-path (cons "/usr/local/otp/bin" exec-path))
+
+
 (require 'erlang-start)
-
 (require 'erlang-flymake)
+(require 'highlight-parentheses)
 
+(add-to-list 'ac-modes 'erlang-mode)
+
+(define-globalized-minor-mode global-highlight-parentheses-mode highlight-parentheses-mode
+    (lambda nil (highlight-parentheses-mode t)))
+
+(global-highlight-parentheses-mode t)
 
 (load-theme 'zenburn 1)
+
